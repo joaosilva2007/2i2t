@@ -42,3 +42,28 @@ body {
 .img-ini{
     width: 100%;
 }
+@media screen and (min-width: 768px){
+    .menu{
+        height: 120px;
+        background-color: blueviolet;
+        color: white;
+        font-size: 32px;
+    }
+    .desc-banda{
+        display: flex;
+    }
+} 
+@media screen and (min-width: 1280px) {
+    .menu{
+        height: 200px;
+        background-color: rgb(17, 223, 34);
+        color: black;
+        font-size: 64px;
+    }
+    .img-ini{
+        width: 50%;
+    }
+    .desc-solo {
+        display: grid;
+    }
+} 
