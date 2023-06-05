@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    background-color: rgb(78, 49, 107);
+}
+.item {
+    width: 100px;
+    height: 75px;
+    background-color: rgb(10, 199, 233);
+    margin: 10px;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%; 
+    justify-content: center;
+}
+.meu-site{ 
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+        "menu menu"
+        "lado principal"
+        "rodape rodape"
+    ;
+}
+.menu{
+    height: 10vh;
+    background-color: thistle;
+    color: black;
+}
+.lado{
+    height: 20vh;
+    background-color: violet;
+}
+.principal{
+    height: 60vh;
+    background-color: slateblue;
+}
+.rodape {
+    height: 10vh;
+    background-color: palevioletred;
+}
