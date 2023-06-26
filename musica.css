@@ -119,23 +119,26 @@ ul{
 }
 .desc-estilo{
     width: 100%;
-    background-color: tan;
+    background-color: rgb(119, 119, 119);
+    color: whitesmoke;
 }
 .desc-solo{
     width: 100%;
-    background-color: teal;
+    background-color: rgb(179, 227, 255);
 }
 .desc-grupo{
     width: 100%;
-    background-color:tan;
+    background-color: rgb(119, 119, 119);
+    color: whitesmoke;
 }
 .desc-banda{
     width: 100%;
-    background-color: teal;
+    background-color: rgb(179, 227, 255);
 }
 .desc-app{
     width: 100%;
-    background-color: tan;
+    background-color: rgb(119, 119, 119);
+    color: whitesmoke;
 }
 .img-ini{
     width: 100%;
