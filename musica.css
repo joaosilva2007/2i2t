@@ -23,6 +23,7 @@ ul{
   width: 100%;
   position: sticky;
   top: 0;
+  padding: 15px;
 }
 .logo{
     display: inline-block; 
@@ -153,6 +154,16 @@ ul{
 .img-ini{
     width: 100%;
 }
+div[class^="item-"]{
+    background-color: rgb(204, 23, 159);
+    margin-top: 2px;
+    height: 300px ;
+    grid-area: "item";
+}
+.info{
+    display: grid;
+
+}
 @media (min-width: 820px){
   .nav{
       max-height: none;
@@ -200,7 +211,15 @@ ul{
 width: 20%;
 height: 10%;
 }
+.info{
+    grid-template-columns: 100% 100%;
+    grid-template-areas: "item item";
+}
+div[class^="item-"]{
+    margin-right: 2px;
+}
 } 
+
 @media (min-width: 1024px) {
     .nav{
         max-height: none;
@@ -226,17 +245,16 @@ height: 10%;
   }
   .conteudo-musica{
       display: grid;
-      grid-template-columns:  33% 34% 33%;
+      grid-template-columns: 33% 34% 33%;
       grid-template-areas: "def def def";
   }
 
-
-
     .menu{
-        height: 200px;
+        height: 50px;
         background-color: var(--fundo);
         color:black;
         font-size: 64px;
+        padding: 10px;
     }
     .img-ini{
         width: 50%;
@@ -244,4 +262,9 @@ height: 10%;
     .desc-solo {
         display: grid;
     }
+    .info{
+        grid-template-columns: 100% 100% 100%;
+        grid-template-areas: "item item item";
+    }
 }
+
